@@ -56,6 +56,6 @@ VOLUME ${STEAMCMDDIR}
 
 RUN mkdir /home/steam/steamcmd/ark
 
-COPY scripts/ark.sh /tmp
+COPY scripts/rust.sh /tmp
 
-CMD cd /tmp && ./ark.sh
+CMD cd /tmp && ./rust.sh
